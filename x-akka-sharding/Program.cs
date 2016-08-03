@@ -15,7 +15,7 @@ namespace x_akka_sharding
 
         static void Main(string[] args)
         {
-            system = ActorSystem.Create("sync");
+            system = ActorSystem.Create("test");
             randomNumberGenerator = new Random();
 
             var props = Props
